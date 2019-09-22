@@ -1,4 +1,4 @@
-baseurl = "https://spikzhang.github.io/"  # Include trailing slash
+baseurl = "https://theoutstanding.rocks"  # Include trailing slash
 title = "Viva con Yishi"
 languageCode = "zh-cn"
 hasCJKLanguage = true
