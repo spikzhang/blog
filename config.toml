@@ -1,0 +1,28 @@
+baseurl = "https://spikzhang.github.io/"  # Include trailing slash
+title = "Viva con Yishi"
+languageCode = "zh-cn"
+hasCJKLanguage = true
+theme = "newsroom"
+
+paginate = 3
+enaleEmoji = true
+author = "Weru"
+copyright = "Copyright © 2019, Weru and the Hugo Authors; all rights reserved."
+canonifyurls = true
+
+
+
+# Enable syntax highlighting
+# comment or delete the following lines 11 ~ 14
+# pygmentsCodefences = true
+# pygmentsCodefencesGuessSyntax = true
+# pygmentsUseClasses=true
+# pygmentsOptions = "linenos=table"
+
+# ids used below are not valid. Replace with valid ones
+[params]
+  # ga_analytics = "" # google analytics ID e.g UA-116386578-1
+  
+  # ga_verify = "" # google verification code e.g 5jb-rxeBfITeJQKOuUss3ud6FPGTxXkCho-ZN5qlrZg
+  # twitter = "" # twitter handle e.g @weru
+
