@@ -41,6 +41,20 @@
   src: local("Cookie-Regular"), url("http://localhost:1313/fonts/cookie-v10-latin-regular.woff2") format("woff2"), url("http://localhost:1313/fonts/cookie-v10-latin-regular.woff") format("woff");
 }
 
+@font-face {
+  font-family: '方正悠黑';
+  font-style: normal;
+  font-weight: 400;
+  src: local("方正悠黑"), local("方正悠黑"), url("http://localhost:1313/fonts/方正悠黑.woff") format("woff"), url("http://localhost:1313/fonts/方正悠黑.woff") format("woff");
+}
+
+@font-face {
+  font-family: '方正聚珍新仿简体';
+  font-style: normal;
+  font-weight: 400;
+  src: local("方正聚珍新仿简体"), local("方正聚珍新仿简体"), url("http://localhost:1313/fonts/方正聚珍新仿简体.wofff") format("woff"), url("http://localhost:1313/fonts/方正聚珍新仿简体.woff") format("woff");
+}
+
 :root {
   --light: #fff;
   --dark: #000;
@@ -49,7 +63,7 @@
   --accent: var(--gray);
   --bg: var(--light);
   --text: var(--dark);
-  --font: 'Metropolis', sans-serif;
+  --font: '方正聚珍新仿简体', sans-serif;
   --theme: #04a763;
 }
 
@@ -138,7 +152,7 @@ blockquote::before {
   top: 0;
   bottom: 0;
   left: 0;
-  background: #04a763;
+  background: #000000;
 }
 
 blockquote p {
@@ -378,7 +392,7 @@ aside h3 {
   margin: 1rem 0 1.5rem;
   display: inline-block;
   padding: 7.5px 12.5px;
-  background-color: #04a763;
+  background-color: #000000;
   box-shadow: 0 1rem 4rem rgba(0, 0, 0, 0.5);
   color: #fff;
   text-align: center;
@@ -392,7 +406,7 @@ aside h3 {
 
 .point {
   margin-right: 15px;
-  color: #04a763;
+  color: #000000;
 }
 
 @media screen and (min-width: 769px) {
@@ -430,7 +444,7 @@ aside h3 {
   position: relative;
   width: 1.5rem;
   height: 1.5rem;
-  background-image: url(http://localhost:1313/images/icons/copy.svg);
+  background-image: url(http://localhost:1313/images/icons/copy_black.svg);
   background-size: 100%;
   cursor: pointer;
 }
@@ -438,7 +452,7 @@ aside h3 {
 .copy::before, .copy::after {
   content: "";
   position: absolute;
-  background: #04a763;
+  background: #000000;
   color: #fff;
   opacity: 0;
   transition: opacity 0.25s ease-in;
@@ -482,7 +496,7 @@ aside h3 {
 }
 
 .footer a {
-  color: #04a763;
+  color: #000000;
   opacity: 0.8;
   transition: opacity 0.3s ease-in-out;
 }
@@ -566,7 +580,7 @@ aside h3 {
 }
 
 .nav-body a:hover {
-  color: #04a763;
+  color: #000000;
 }
 
 .nav-brand {
@@ -700,7 +714,7 @@ aside h3 {
 }
 
 .post_inner a {
-  color: #04a763;
+  color: #000000;
   transition: all 0.3s;
 }
 
@@ -763,7 +777,7 @@ aside h3 {
 }
 
 .post_meta a:hover {
-  color: #04a763;
+  color: #000000;
   text-decoration: underline;
   opacity: 0.9;
 }
@@ -776,7 +790,7 @@ aside h3 {
 .post_tag {
   font-size: 0.75rem !important;
   font-weight: 500;
-  background: #04a763;
+  background: #000000;
   color: #fff;
   padding: 0.25rem 0.67rem !important;
   text-transform: uppercase;
@@ -789,7 +803,7 @@ aside h3 {
 }
 
 .post_time {
-  background: #04a763;
+  background: #000000;
   display: inline-grid;
   padding: 0.2rem 0.75rem;
   color: #fff;
@@ -805,7 +819,7 @@ aside h3 {
   display: grid;
   margin: 3.5rem auto 1rem;
   text-align: center;
-  color: #04a763;
+  color: #000000;
   text-transform: uppercase;
 }
 
@@ -834,7 +848,7 @@ aside h3 {
 
 .post_next::after {
   content: "";
-  background-image: url("http://localhost:1313/images/icons/next.svg");
+  background-image: url("http://localhost:1313/images/icons/next_black.svg");
   background-repeat: repeat no-repeat;
   background-size: 0.8rem;
   background-position: center right;
@@ -875,7 +889,7 @@ aside h3 {
 }
 
 .pager_next {
-  background-image: url(http://localhost:1313/images/icons/next.svg);
+  background-image: url(http://localhost:1313/images/icons/next_black.svg);
 }
 
 .pager span {

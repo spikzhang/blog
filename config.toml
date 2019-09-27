@@ -1,6 +1,6 @@
 baseurl = "https://theoutstanding.rocks"  # Include trailing slash
 title = "Outstanding Rocks"
-languageCode = "zh-cn"
+languageCode = "zh-CN"
 hasCJKLanguage = true
 theme = "newsroom"
 

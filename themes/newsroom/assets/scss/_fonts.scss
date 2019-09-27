@@ -51,3 +51,21 @@
        url('#{$font-path}/cookie-v10-latin-regular.woff2') format('woff2'), // Super Modern Browsers
        url('#{$font-path}/cookie-v10-latin-regular.woff') format('woff'), // Modern Browsers
 }
+
+@font-face {
+  font-family: '方正悠黑';
+  font-style: normal;
+  font-weight: 400;
+  src: local('方正悠黑'), local('方正悠黑'),
+       url('#{$font-path}/方正悠黑.woff') format('woff'), // Super Modern Browsers
+       url('#{$font-path}/方正悠黑.woff') format('woff'), // Modern Browsers
+}
+
+@font-face {
+  font-family: '方正聚珍新仿简体';
+  font-style: normal;
+  font-weight: 400;
+  src: local('方正聚珍新仿简体'), local('方正聚珍新仿简体'),
+       url('#{$font-path}/方正聚珍新仿简体.wofff') format('woff'), // Super Modern Browsers
+       url('#{$font-path}/方正聚珍新仿简体.woff') format('woff'), // Modern Browsers
+}

@@ -1,6 +1,6 @@
 $padding: 10px;
 $margin: 25px;
-$theme: #04a763;
+$theme: #000000;
 $light: #fff;
 $dark: #000;
 $text: #343434;
@@ -13,7 +13,7 @@ $linear: linear-gradient(to right bottom, darken($theme, 10%), $theme);
   --accent: var(--gray);
   --bg: var(--light);
   --text: var(--dark);
-  --font: 'Metropolis', sans-serif;
+  --font: '方正聚珍新仿简体', sans-serif;
   --theme: #04a763;
 }
 @media (prefers-color-scheme: dark) { 
